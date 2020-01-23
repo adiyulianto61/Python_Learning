@@ -1,0 +1,8 @@
+"""Tuple adalah jenis dari list yang tidak dapat diubah elemennya. 
+Umumnya tuple digunakan untuk data yang bersifat sekali tulis, 
+dan dapat dieksekusi lebih cepat. 
+Tuple didefinisikan dengan kurung dan elemen yang dipisahkan dengan koma.
+"""
+t = (5, "program", 1+3j)
+t[1]
+t[0:3]

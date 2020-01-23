@@ -1,0 +1,20 @@
+"""String adalah urutan dari karakter unicode. 
+Dideklarasikan dengan petik tunggal atau ganda. 
+String >1baris dapat ditandai dengan tiga petik tunggal atau ganda '''atau"''.
+"""
+#  String Peting Ganda
+s = "This is a string"
+print(s)
+
+# String > 1baris
+s = """This is a multiline
+next new line (1)
+another new line (2)"""
+print(s)
+
+#  mutable = bisa diubah
+#  immutable = tidak bisa diubah
+#  elemen 's' immutable, sedangkan string "Hello World" mutable
+s = "Hello World!"
+print(s[4])
+print(s[6:11])

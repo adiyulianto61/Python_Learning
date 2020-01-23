@@ -1,0 +1,33 @@
+"""1.Setiap elemen pair key-value dipisahkan dengan koma (,)
+2. Key dan Value dipisahkan dengan titik dua (:)
+3. Key dan Value dapat berupa tipe variable/objek apapun
+"""
+d = {1: "value", "key": 2}
+print(type(d))
+print("d[1] =", d[1])
+print("d[key] =", d["2"])
+
+#  Generates error, karena tidak ada kunci(key) 2:
+print("d[2] =", d[2])
+
+"""Konversi antar tipe data
+"""
+float(5)  # outputnya jadi float (5.0)
+int(10.6)  # outputnya jadi integer (10)
+int(-10.5)  # outputnya jadi integer (-10)
+float("2.5")  # outputnya jadi float (2.5)
+str(25)  # outputnya jadi string (25)
+
+"""Konversi kumpulan data (set, list, tuple)
+"""
+set([1, 2, 3])
+tuple({5, 6, 7})
+list("hello")
+
+"""Untuk konversi ke dictionary, data harus memenuhi persyaratan key-value
+"""
+#  list dari beberapa list yang isinya pasangan nilai menjadi dictionary
+dict([[1, 2], [3, 4]])
+
+#  list dari beberapa tuple yang isinya pasangan nilai menjadi dictionary
+dict([(2, 26), (4, 44)])

@@ -1,0 +1,39 @@
+#  OUTPUT
+print("Hello, World!")
+
+a = 5
+print("The value of a is", a)
+
+print("hello {}".format("kakak"))
+
+name = "John"
+print("Hello, %s!" % name)
+
+name = "John"
+age = 15
+print("%s is %d years old." % (name, age))
+
+mylist = [1, 2, 3]
+print("A list: %s" % mylist)
+
+""" Beberapa argument specifier yang umum digunakan. 
+%s - String
+%d - Integers
+%f - Bilangan Pecahan
+%.<digit>f - Bilangan pecahan dengan sejumlah digit angka dibelakang koma.
+%x/%X - Bilangan bulat dalam representasi Hexa (huruf kecil/buruf besar)
+"""
+a, b = 10, 11
+a, b
+print("a: %x and b: %X" % (a, b))
+
+# INPUT
+"""Untuk memungkinkan user memberikan input pada program Anda,
+gunakan fungsi input(), dengan argumen dalam kurung () adalah
+teks yang ingin ditampilkan (prompt) dan variabel sebelum tanda sama dengan (=) 
+"""
+num = input("Enter a number:")
+num
+int(num)
+float(num)
+eval("2+3")
